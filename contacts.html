@@ -92,37 +92,28 @@
                             <div data-form-alert="" hidden="" class="align-center">Дякуємо за звернення!</div>
 
                             <!-- ОНОВЛЕНА ФОРМА -->
-                            <form class="mbr-form" action="https://formspree.io/f/xrbjqnyr" method="POST"
-                                data-form-title="form">
-
-                                <div data-for="name">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control px-3" name="name" data-form-field="Name"
-                                            placeholder="Ім'я" required id="name-header15-11">
-                                    </div>
-                                </div>
-                                <div data-for="email">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control px-3" name="email"
-                                            data-form-field="Email" placeholder="Email" required id="email-header15-11">
-                                    </div>
-                                </div>
-                                <div data-for="phone">
-                                    <div class="form-group">
-                                        <input type="tel" class="form-control px-3" name="phone" data-form-field="Phone"
-                                            placeholder="Телефон" id="phone-header15-11">
-                                    </div>
-                                </div>
-                                <div class="form-group" data-for="message">
-                                    <textarea type="text" class="form-control px-3" name="message" rows="7"
-                                        placeholder="Повідомлення" data-form-field="Message"
-                                        id="message-header15-11"></textarea>
-                                </div>
-                                <span class="input-group-btn">
-                                    <button type="submit"
-                                        class="btn btn-secondary btn-form display-4">НАДІСЛАТИ</button>
-                                </span>
-                            </form>
+                        <form action="https://formspree.io/f/xrbjqnyr" method="POST">
+                            <div class="form-group">
+                                <input type="text" class="form-control px-3" name="name" placeholder="Ім'я" required>
+                            </div>
+                        
+                            <div class="form-group">
+                                <input type="email" class="form-control px-3" name="email" placeholder="Email" required>
+                            </div>
+                        
+                            <div class="form-group">
+                                <input type="tel" class="form-control px-3" name="phone" placeholder="Телефон">
+                            </div>
+                        
+                            <div class="form-group">
+                                <textarea class="form-control px-3" name="message" rows="7"
+                                    placeholder="Повідомлення (напишіть, що хочете забронювати)" required></textarea>
+                            </div>
+                        
+                            <button type="submit" class="btn btn-secondary btn-form display-4">
+                                НАДІСЛАТИ
+                            </button>
+                        </form>
                             <!-- КІНЕЦЬ ОНОВЛЕНОЇ ФОРМИ -->
 
                         </div>
@@ -219,7 +210,7 @@
     <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
     <script src="assets/parallax/jarallax.min.js"></script>
     <script src="assets/theme/js/script.js"></script>
-    <script src="assets/formoid/formoid.min.js"></script>
+
 
     <div id="scrollToTop" class="scrollToTop mbr-arrow-up">
         <a style="text-align: center;">
